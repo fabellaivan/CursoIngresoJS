@@ -8,7 +8,8 @@ function mostrar()
 	var apellidoEmpleado;
 	
 	nombreDelEmpleado= txtIdNombre.value;
-	edadDelEmpleado= txtIdEdad.value
+	edadDelEmpleado= txtIdEdad.value;
+	apellidoEmpleado = prompt("ingrese su apellido es ");
 	
 
 	alert("Usted se llama " + nombreDelEmpleado + " y tiene " +edadDelEmpleado +" años de edad y su apellido "+ apellidoEmpleado );
