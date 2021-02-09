@@ -19,9 +19,4 @@ function SacarResto()
 	alert("El resto entre el dividendo y el divisor es : "+ resto);
 
 	
-
-
-
-
-	alert("ok");
 }
