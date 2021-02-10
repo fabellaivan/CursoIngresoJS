@@ -7,7 +7,7 @@ function mostrar()
 	edad = parseInt(edad);
 	if(edad>12 && edad<18)
 		{
-		alert("Usted es adolescente, edad entre 13 y 17 años ");
+			alert("Usted es adolescente, edad entre 13 y 17 años ");
 		}
 
 }//FIN DE LA FUNCIÓN

@@ -6,14 +6,16 @@ function mostrar()
 	edad = txtIdEdad.value;
 	edad = parseInt(edad);
 	if(edad>17)
-	{
-		alert("Usted es Mayor");
-	}else 
+		{
+			alert("Usted es Mayor");
+		}
+		else 
 		{
 			if(edad>12 && edad<18)
-			{
-			alert("Usted es adolescente, edad entre 13 y 17 años ");
-			}else
+				{
+					alert("Usted es adolescente, edad entre 13 y 17 años ");
+				}
+				else
 				{
 					alert("usted es un niño");
 				}

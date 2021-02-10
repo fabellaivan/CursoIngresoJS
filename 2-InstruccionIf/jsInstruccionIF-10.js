@@ -5,23 +5,26 @@ function mostrar()
 	"Vamos, la proxima se puede" para notas menores a 4*/
 	//Genero el número RANDOM entre 1 y 10 
 	var numero;
-	numero =  Math.floor(Math.random() * 10);
+	numero =  Math.floor(Math.random() * 10+1);
 	numero = parseInt(numero);
-	if(numero>8)
+		if(numero>8)
 		{
-			alert("Excelente");
-		}else
-			{
-				if(numero<8 && numero>3)
+			alert("EXCELENTE: ");
+		}
+		else
+		{
+			if(numero<9 && numero>3)
+				{
+					alert("APROBÓ");
+				}
+				else
 					{
-						alert("Aprobo");
-					}else
-						{
-							alert("Vamos, la proxima se puede");
-						}
-			}
+						alert("Vamos, la proxima se puede");
+					}
+		}
 	
 	alert("Su nota es: "+numero);
 }
 
 //FIN DE LA FUNCIÓN
+//Fabella Ivan Ejercicio 10
