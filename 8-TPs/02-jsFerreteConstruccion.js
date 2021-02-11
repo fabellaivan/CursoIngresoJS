@@ -37,7 +37,7 @@ function Circulo ()
     
     hilo  = area /3;
   
-    alert("La cantidad de alambre por rollo es de "+hilo);
+    alert("La cantidad de alambre por rollo es de: "+hilo);
 
     
 	
